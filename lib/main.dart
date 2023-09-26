@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'chat_screen.dart';
 import 'profile_screen.dart';
 
@@ -18,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   int _selectedIndex = 0;
 
   final List<Widget> _screens = [
-    const ChatScreen(),
+    const ChatPage(),
     const ProfileScreen(),
   ];
 
